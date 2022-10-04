@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <style>
+    .purple_border{
+      box-shadow: 4px 4px 1px rgb(126, 34, 206);
+      padding-bottom: 30px;
+      padding-top: 40px;
+      padding-left: 30px;
+      padding-right: 40px;
+
+    }
+    .black_border{
+      box-shadow: 4px 4px 1px rgb(0, 0,0);
+      
+    }
+
+  </style>
+  <title>WARNING</title>
+</head>
+<body>
+  
+  <button style="font-family: 'Acme', sans-serif;" class=" my-14 mx-7  py-1 px-3 origin-bottom -rotate-12 absolute border border-black black_border bg-[#7e22ce] text-white ">WARNING!</button>
+  <div class="flex flex-col justify-center">
+  <div class=" purple_border border border-black  my-16 mx-12">
+    The <span class=" font-mono text-purple-700 font-bold ">message</span> variable is a Laravel reserved word within this email context,
+    so you should avoid using that as a field handle if you intend on using the email feature.
+  </div>
+</div>
+</body>
+</html>
